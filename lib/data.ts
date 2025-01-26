@@ -32,6 +32,36 @@ const data = {
             name: "Help",
             href: "/page/help",
         },
+    ],
+    carousels: [
+        {
+            title: "Most Popular Shoes For Sales",
+            buttonCaption: "Shop Now",
+            image: "/images/banner1.jpg",
+            url: "/search?category=Shoes",
+            isPublished: true
+        },
+        {
+            title: "Best Deals on Wrist Watches",
+            buttonCaption: "Shop Now",
+            image: "/images/banner3.jpg",
+            url: "/search?category=Wrist Watches",
+            isPublished: true
+        },
+        {
+            title: "Best Combo Shirts",
+            buttonCaption: "Shop Now",
+            image: "/images/banner4.jpg",
+            url: "/search?category=combo-shirts",
+            isPublished: true
+        },
+        {
+            title: "Best Seller in T-Shirt",
+            buttonCaption: "Shop Now",
+            image: "/images/banner2.jpg",
+            url: "/search?category=T-Shirts",
+            isPublished: true
+        },
     ]
 }
 
