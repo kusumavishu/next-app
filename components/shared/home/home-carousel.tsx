@@ -17,10 +17,10 @@ export default function HomeCarousel({
   items,
 }: {
   items: {
-    title: String;
-    buttonCaption: String;
-    image: String;
-    url: String;
+    title: string;
+    buttonCaption: string;
+    image: string;
+    url: string;
     isPublished: boolean;
   }[];
 }) {
